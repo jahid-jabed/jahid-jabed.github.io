@@ -287,6 +287,10 @@
 		padding-top: 70px;
 		padding-bottom: 70px;
 	}
+	.p_40 {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
 	.main_title h2 {
 		font-size: 25px;
 	}
@@ -316,7 +320,7 @@
 	/* Footer Area css
 	============================================================================================ */
 	.footer-area {
-		padding: 70px 0px;
+		padding: 10px 0px;
 	}
 	/* End End Footer Area css
 	============================================================================================ */
