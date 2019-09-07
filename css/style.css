@@ -285,7 +285,7 @@ button:focus {
   .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .home_left_img {
-      padding-top: 195px; }
+      padding-top: 120px; }
     .home_banner_area .banner_inner .col-lg-6 {
       vertical-align: middle;
       align-self: center; }
@@ -3069,7 +3069,15 @@ h6 {
   .copy_right_text p a {
     color: #8490ff; }
 
-/* End Footer Area css
+/* End Footer Area css */
+/* Start Show Image Small Screen
+
+@media only screen and (max-width: 479px) and (min-width: 0px){
+.banner-content img {
+display: inline-block;}
+}*/
+
+/* End Show Image Small Screen
 ============================================================================================ */
 /*---------------------------------------------------- */
 
