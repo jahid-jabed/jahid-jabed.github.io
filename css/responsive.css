@@ -277,6 +277,9 @@
 	}
 	.home_banner_area .banner_inner .banner_content img{
 		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
 	}
 	.home_banner_area .banner_inner .banner_content h5 {
 		margin-top: 0px;
@@ -371,6 +374,9 @@
 	}
 	.home_banner_area .banner_inner .banner_content img{
 		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
 	}
 	/* End Home Banner Area css
 	============================================================================================ */
