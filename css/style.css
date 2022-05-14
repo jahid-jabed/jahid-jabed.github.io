@@ -373,7 +373,8 @@ button:focus {
     background: #f9f9ff;
     z-index: 1; }
     .banner_area .banner_inner .banner_content {
-      margin-top: 70px; }
+      margin-top: 70px;
+      margin-bottom: 50px;}
       .banner_area .banner_inner .banner_content h2 {
         color: #222222;
         font-size: 36px;
