@@ -7,21 +7,21 @@
 	color: transparent;  
 	box-shadow: none;
 	background-position: inline;  
-	position: absolute; 
+	/*position: absolute;*/
 	cursor: pointer!important;
-	outline: 0;
-	border: 0;
+	/*outline: 0;*/
+	border: none;
 }
 .nav-item button{
 	background: url(../img/moon.svg) no-repeat;
 	background-position: inline;
-	cursor: pointer!important;
+	/*cursor: pointer!important;
 	outline: 0;
-	border: 0;
+	border: 0;*/
 }
 .nav-item button:focus{
 	outline:0;
-	border: 0;
+	/*border: 0;*/
 }
 
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Roboto:300,400,500,700");
