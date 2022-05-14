@@ -227,7 +227,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #fff;
+    /*background: #fff;*/
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -286,6 +286,7 @@ button:focus {
 .home_banner_area {
   z-index: 1;
   background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
+  opacity: 0.5;
   background-size: cover; }
   .home_banner_area .banner_inner {
     width: 100%; }
