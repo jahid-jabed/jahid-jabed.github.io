@@ -28,7 +28,7 @@ body {
   font-weight: normal;
   color: #1d1e21!important;
   background:#fff!important;
-  
+  z-index: 99;
   background: url(../img/banner/banner_updated.png) repeat scroll center center;
   background-repeat: repeat !important;
 
