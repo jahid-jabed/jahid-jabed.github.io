@@ -103,7 +103,7 @@
         								<li><i class="lnr lnr-graduation-hat"></i></li>
         								<li><h4>1</h4></li>
         								<li data-filter=".graduate_thesis">
-										<a class="nav-link" href="#Works" onclick="location.href='#Works';" style="text-decoration: none; word-wrap: break-word; transform: rotate(180deg);">
+										<a class="nav-link" href="#Works" onclick="location.href='#Works';" style="text-decoration: none; word-wrap: break-word; transform: rotate(90deg);">
 											Graduate Thesis
 										</a>
 									</li>
@@ -114,7 +114,7 @@
         								<li><i class="lnr lnr-graduation-hat"></i></li>
         								<li><h4>1</h4></li>
         								<li data-filter=".thesis">
-										<a class="nav-link" href="#Works" onclick="location.href='#Works';" style="text-decoration: none; word-wrap: break-word; transform: rotate(180deg);">
+										<a class="nav-link" href="#Works" onclick="location.href='#Works';" style="text-decoration: none; word-wrap: break-word; transform: rotate(90deg);">
 											Undergrade Thesis
 										</a>
 									</li>
@@ -125,7 +125,7 @@
         								<li><i class="lnr lnr-code"></i></li>
         								<li><h4>4</h4></li>
         								<li data-filter=".projects">
-										<a class="nav-link" href="#Works" onclick="location.href='#Works';" style="text-decoration: none; word-wrap: break-word; transform: rotate(180deg);">
+										<a class="nav-link" href="#Works" onclick="location.href='#Works';" style="text-decoration: none; word-wrap: break-word; transform: rotate(90deg);">
 											Undergrade Projects
 										</a>
 									</li>
@@ -136,7 +136,7 @@
         								<li><i class="lnr lnr-book"></i></li>
         								<li><h4>2</h4></li>
         								<li data-filter=".publications">
-										<a class="nav-link" href="#Works" onclick="location.href='#Works';" style="text-decoration: none; word-wrap: break-word; transform: rotate(180deg);">
+										<a class="nav-link" href="#Works" onclick="location.href='#Works';" style="text-decoration: none; word-wrap: break-word; transform: rotate(90deg);">
 											Total Publications
 										</a>
 									</li>
@@ -837,7 +837,7 @@
 		  const now = new Date();
 		  const diff = Math.abs(now - date );
 		  const exp = Math.floor(diff / (1000 * 60 * 60 * 24 * 365)); 
-		  return exp
+		  return exp;
 		}
 		let exp_year = calculateExp("Tue Mar 12 2019");
   		document.getElementById('exp_year').innerHTML = ""+exp_year;
