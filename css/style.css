@@ -285,8 +285,8 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
-  opacity: 0.5;
+  /*background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;*/
+  /*opacity: 0.5;*/
   background-size: cover; }
   .home_banner_area .banner_inner {
     width: 100%; }
