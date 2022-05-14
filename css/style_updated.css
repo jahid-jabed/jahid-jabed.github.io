@@ -13,14 +13,17 @@ nav-item button a{
 	position: absolute;  
 	cursor: pointer;
 	outline: 0;
+	border: 0;
 }
 .nav-item button{
 	background: url(../img/moon.svg) no-repeat;
 	background-position: center;
 	outline: 0;
+	border: 0;
 }
 .nav-item button:focus a:focus a:hover{
 	outline:0;
+	border: 0;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Roboto:300,400,500,700");
