@@ -51,8 +51,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   /*color: #777777;*/ 
-  color:#fff;
-  background:#1d1e21;}
+  color:#fff !important;
+  background:#1d1e21 !important;}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Heebo", sans-serif;
@@ -130,6 +130,8 @@ button:focus {
   top: 0;
   left: 0;
   z-index: 99;
+  color:#fff !important;
+  background:#1d1e21 !important;
   transition: background 0.4s, all 0.3s linear; }
   .header_area .navbar {
     background: transparent;
