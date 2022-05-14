@@ -28,6 +28,10 @@ body {
   font-weight: normal;
   color: #1d1e21!important;
   background:#fff!important;
+  
+  background: url(../img/banner/banner_updated.png) repeat scroll center center;
+  background-repeat: repeat !important;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
