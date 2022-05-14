@@ -11,14 +11,14 @@
 	height: 50px;  
 	background-position: center;  
 	position: absolute; 
-	cursor: pointer;
+	cursor: pointer!important;
 	outline: 0;
 	border: 0;
 }
 .nav-item button{
 	background: url(../img/moon.svg) no-repeat;
 	background-position: center;
-	cursor: pointer;
+	cursor: pointer!important;
 	outline: 0;
 	border: 0;
 }
