@@ -222,7 +222,7 @@ button:focus {
   z-index: 1;
   background: url(../img/banner/banner_updated.png) repeat scroll center center;
   background-repeat: repeat;
-/*   background-size: cover; } */
+  background-size: cover; }
   .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .home_left_img {
