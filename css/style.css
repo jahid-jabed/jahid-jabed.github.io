@@ -29,7 +29,6 @@ Table of Content:
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
-
 .list {
   list-style: none;
   margin: 0px;
@@ -50,9 +49,7 @@ body {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  /*color: #777777;*/ 
-  color:#fff !important;
-  background:#1d1e21 !important;}
+  color: #777777; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Heebo", sans-serif;
@@ -102,7 +99,7 @@ button:focus {
   .main_title h2 {
     font-family: "Heebo", sans-serif;
     font-size: 36px;
-    /*color: #222222;*/
+    color: #222222;
     font-weight: bold;
     margin-bottom: 15px;
     text-transform: uppercase; }
@@ -110,14 +107,14 @@ button:focus {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     line-height: 26px;
-    /*color: #777777;*/
+    color: #777777;
     margin-bottom: 0px;
     max-width: 570px;
     margin: auto; }
   .main_title.white h2 {
-    /*color: #fff;*/ }
+    color: #fff; }
   .main_title.white p {
-    /*color: #fff*/;
+    color: #fff;
     opacity: .6; }
 
 /* End Main Title Area css
@@ -130,8 +127,6 @@ button:focus {
   top: 0;
   left: 0;
   z-index: 99;
-  color:#fff !important;
-  background:#1d1e21 !important;
   transition: background 0.4s, all 0.3s linear; }
   .header_area .navbar {
     background: transparent;
@@ -143,7 +138,7 @@ button:focus {
       .header_area .navbar .nav .nav-item .nav-link {
         font: 500 12px/100px "Roboto", sans-serif;
         text-transform: uppercase;
-        /*color: #222222;*/
+        color: #222222;
         padding: 0px;
         display: inline-block; }
         .header_area .navbar .nav .nav-item .nav-link:after {
@@ -156,7 +151,7 @@ button:focus {
           border-radius: 0px;
           box-shadow: none;
           margin: 0px;
-          /*background: #fff;*/ }
+          background: #fff; }
           @media (min-width: 992px) {
             .header_area .navbar .nav .nav-item.submenu ul {
               position: absolute;
@@ -194,7 +189,7 @@ button:focus {
             transition: all 0.4s linear; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
               line-height: 45px;
-              /*color: #222222;*/
+              color: #222222;
               padding: 0px 30px;
               transition: all 150ms linear;
               display: block;
@@ -202,8 +197,8 @@ button:focus {
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-              /*background: #8490ff*/;
-              /*color: #fff;*/ }
+              background: #8490ff;
+              color: #fff; }
         @media (min-width: 992px) {
           .header_area .navbar .nav .nav-item.submenu:hover ul {
             visibility: visible;
@@ -217,7 +212,7 @@ button:focus {
       font-size: 12px;
       line-height: 60px;
       display: inline-block;
-      /*color: #222222;*/
+      color: #222222;
       margin-left: 80px; }
       .header_area .navbar .search i {
         font-weight: 600; }
@@ -227,7 +222,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    /*background: #fff;*/
+    background: #fff;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -245,21 +240,21 @@ button:focus {
       .header_area.white_menu .navbar .navbar-brand img + img {
         display: none; } }
   .header_area.white_menu .navbar .nav .nav-item .nav-link {
-    /*color: #fff;*/ }
+    color: #fff; }
   .header_area.white_menu.navbar_fixed .main_menu .navbar .navbar-brand img {
     display: inline-block; }
     .header_area.white_menu.navbar_fixed .main_menu .navbar .navbar-brand img + img {
       display: none; }
   .header_area.white_menu.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 70px;
-    /*color: #222222;*/ }
+    color: #222222; }
 
 .top_menu {
   background: #ec9d5f; }
   .top_menu .float-left a {
     line-height: 40px;
     display: inline-block;
-    /*color: #fff;*/
+    color: #fff;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     font-size: 12px;
@@ -268,10 +263,10 @@ button:focus {
     .top_menu .float-left a:last-child {
       margin-right: 0px; }
     .top_menu .float-left a:hover {
-      /*color: #8490ff;*/ }
+      color: #8490ff; }
   .top_menu .float-right .pur_btn {
-    /*background: #8490ff;*/
-    /*color: #fff;*/
+    background: #8490ff;
+    color: #fff;
     font-family: "Roboto", sans-serif;
     line-height: 40px;
     display: block;
@@ -285,8 +280,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  /*background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;*/
-  /*opacity: 0.5;*/
+  background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
   background-size: cover; }
   .home_banner_area .banner_inner {
     width: 100%; }
@@ -298,7 +292,7 @@ button:focus {
       align-self: center; }
     .home_banner_area .banner_inner .banner_content {
       text-align: left;
-      /*color: #222222;*/ }
+      color: #222222; }
       .home_banner_area .banner_inner .banner_content h5 {
         font-size: 14px;
         font-family: "Roboto", sans-serif;
@@ -314,7 +308,7 @@ button:focus {
         text-transform: uppercase;
         margin-bottom: 20px; }
       .home_banner_area .banner_inner .banner_content p {
-        /*color: #777777;*/
+        color: #777777;
         font-family: "Roboto", sans-serif;
         max-width: 680px;
         font-size: 14px;
@@ -330,7 +324,7 @@ button:focus {
   overflow: hidden;
   margin-bottom: 0px; }
   .blog_banner .banner_inner {
-    /*background: #04091e;*/
+    background: #04091e;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -348,7 +342,7 @@ button:focus {
     .blog_banner .banner_inner .blog_b_text {
       max-width: 700px;
       margin: auto;
-      /*color: #fff;*/
+      color: #fff;
       margin-top: 40px; }
       .blog_banner .banner_inner .blog_b_text h2 {
         font-size: 60px;
@@ -376,13 +370,13 @@ button:focus {
     overflow: hidden;
     width: 100%;
     min-height: 430px;
-    /*background: #f9f9ff;*/
+    background: #f9f9ff;
     z-index: 1; }
     .banner_area .banner_inner .banner_content {
       margin-top: 70px;
       margin-bottom: 50px;}
       .banner_area .banner_inner .banner_content h2 {
-        /*color: #222222;*/
+        color: #222222;
         font-size: 36px;
         font-family: "Heebo", sans-serif;
         margin-bottom: 0px;
@@ -390,7 +384,7 @@ button:focus {
         font-weight: bold; }
       .banner_area .banner_inner .banner_content .page_link a {
         font-size: 14px;
-        /*color: #777777;*/
+        color: #777777;
         font-family: "Roboto", sans-serif;
         margin-right: 32px;
         position: relative; }
@@ -417,12 +411,12 @@ button:focus {
   margin-top: 24px;
   margin-bottom: 15px; }
   .l_blog_item .l_blog_text .date a {
-    /*color: #777777;*/
+    color: #777777;
     font-size: 12px;
     font-family: "Roboto", sans-serif; }
 .l_blog_item .l_blog_text h4 {
   font-size: 21px;
-  /*color: #222222;*/
+  color: #222222;
   margin-bottom: 20px;
   transition: all 300ms linear 0s;
   font-family: "Heebo", sans-serif;
@@ -430,7 +424,7 @@ button:focus {
   text-transform: uppercase;
   max-width: 300px; }
   .l_blog_item .l_blog_text h4:hover {
-    /*color: #8490ff;*/ }
+    color: #8490ff; }
 .l_blog_item .l_blog_text p {
   margin-bottom: 0px;
   font-size: 14px;
@@ -446,16 +440,16 @@ button:focus {
   .causes_slider .owl-dots .owl-dot {
     height: 14px;
     width: 14px;
-    /*background: #eeeeee;*/
+    background: #eeeeee;
     display: inline-block;
     margin-right: 7px; }
     .causes_slider .owl-dots .owl-dot:last-child {
       margin-right: 0px; }
     .causes_slider .owl-dots .owl-dot.active {
-      /*background: #8490ff;*/ }
+      background: #8490ff; }
 
 .causes_item {
-  /*background: #fff;*/ }
+  background: #fff; }
   .causes_item .causes_img {
     position: relative; }
     .causes_item .causes_img .c_parcent {
@@ -464,11 +458,11 @@ button:focus {
       width: 100%;
       left: 0px;
       height: 3px;
-      /*background: rgba(255, 255, 255, 0.5);*/ }
+      background: rgba(255, 255, 255, 0.5); }
       .causes_item .causes_img .c_parcent span {
         width: 70%;
         height: 3px;
-        /*background: #8490ff;*/
+        background: #8490ff;
         position: absolute;
         left: 0px;
         bottom: 0px; }
@@ -477,24 +471,24 @@ button:focus {
           position: absolute;
           right: -10px;
           bottom: 0px;
-          /*background: #8490ff;
-          color: #fff;*/
+          background: #8490ff;
+          color: #fff;
           padding: 0px 5px; }
   .causes_item .causes_text {
     padding: 30px 35px 40px 30px; }
     .causes_item .causes_text h4 {
-      /*color: #222222;*/
+      color: #222222;
       font-family: "Roboto", sans-serif;
       font-size: 18px;
       font-weight: 600;
       margin-bottom: 15px;
       cursor: pointer; }
       .causes_item .causes_text h4:hover {
-        /*color: #8490ff;*/ }
+        color: #8490ff; }
     .causes_item .causes_text p {
       font-size: 14px;
       line-height: 24px;
-      /*color: #777777;*/
+      color: #777777;
       font-weight: 300;
       margin-bottom: 0px; }
   .causes_item .causes_bottom a {
@@ -503,8 +497,8 @@ button:focus {
     text-align: center;
     float: left;
     line-height: 50px;
-    /*background: #8490ff;
-    color: #fff;*/
+    background: #8490ff;
+    color: #fff;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 500; }
@@ -512,11 +506,11 @@ button:focus {
       border-color: #eeeeee;
       background: #fff;
       font-size: 14px;
-      /*color: #222222;*/ }
+      color: #222222; }
 
 /* End Causes Area css
 ============================================================================================ */
-/*================= latest_blog_area css =============
+/*================= latest_blog_area css =============*/
 .single-recent-blog-post {
   margin-bottom: 30px; }
   .single-recent-blog-post .thumb {
@@ -530,7 +524,7 @@ button:focus {
       padding: 10px 0px 13px;
       transition: all 0.3s linear; }
       .single-recent-blog-post .details .sec_h4:hover {
-        /*color: #777777;*/ }
+        color: #777777; }
   .single-recent-blog-post .date {
     font-size: 14px;
     line-height: 24px;
@@ -1047,11 +1041,11 @@ button:focus {
     font-size: 13px;
     color: #777; }
 
-============ End Blog Single Styles  =============*/
+/*============ End Blog Single Styles  =============*/
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Home Map Area css
-============================================================================================ 
+============================================================================================ */
 .home_map_area {
   position: relative; }
   .home_map_area .mapBox2 {
@@ -1175,7 +1169,7 @@ button:focus {
 .reservation_form .form-group:last-child {
   text-align: center; }
 
- End Reservation Form Area css
+/* End Reservation Form Area css
 ============================================================================================ */
 /*============== contact_area css ================*/
 .mapBox {
@@ -1191,7 +1185,7 @@ button:focus {
     top: 0;
     font-size: 20px;
     line-height: 24px;
-    /*color: #8490ff;*/
+    color: #8490ff;
     font-weight: 600; }
   .contact_info .info_item h6 {
     font-size: 16px;
@@ -1199,9 +1193,9 @@ button:focus {
     color: "Roboto", sans-serif;
     font-weight: bold;
     margin-bottom: 0px;
-    /*color: #222222; */}
+    color: #222222; }
     .contact_info .info_item h6 a {
-      /*color: #222222;*/ }
+      color: #222222; }
   .contact_info .info_item p {
     font-size: 14px;
     line-height: 24px;
@@ -1212,7 +1206,7 @@ button:focus {
   .contact_form .form-group .form-control {
     font-size: 13px;
     line-height: 26px;
-    /*color: #999;*/
+    color: #999;
     border: 1px solid #eeeeee;
     font-family: "Roboto", sans-serif;
     border-radius: 0px;
@@ -1221,13 +1215,13 @@ button:focus {
       box-shadow: none;
       outline: none; }
     .contact_form .form-group .form-control.placeholder {
-      /*color: #999; */}
+      color: #999; }
     .contact_form .form-group .form-control:-moz-placeholder {
-     /* color: #999; */}
+      color: #999; }
     .contact_form .form-group .form-control::-moz-placeholder {
-      /*color: #999; */}
+      color: #999; }
     .contact_form .form-group .form-control::-webkit-input-placeholder {
-      /*color: #999;*/ }
+      color: #999; }
   .contact_form .form-group textarea {
     resize: none; }
     .contact_form .form-group textarea.form-control {
@@ -1237,7 +1231,7 @@ button:focus {
   cursor: pointer; }
 
 /* Contact Success and error Area css
-============================================================================================ 
+============================================================================================ */
 .modal-message .modal-dialog {
   position: absolute;
   top: 36%;
@@ -1269,7 +1263,7 @@ button:focus {
     .modal-message .modal-dialog .modal-content .modal-header p {
       display: block; }
 
- End Contact Success and error Area css
+/* End Contact Success and error Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -1288,7 +1282,7 @@ button:focus {
     line-height: 26px; }
     .sample-text-area p b {
       font-weight: bold;
-      /*color: #8490ff;*/ }
+      color: #8490ff; }
     .sample-text-area p i {
       color: #8490ff;
       font-style: italic; }
@@ -3084,13 +3078,6 @@ h6 {
 .banner-content img {
 display: inline-block;}
 }*/
-
-.light-mode{color:#1d1e21 !important; background:#fff !important;}
-.light-mode body{color:#1d1e21 !important; background:#fff !important;}
-.light-mode section{color:#1d1e21 !important; background:#fff !important;}
-button{  background: url(../img/sun.svg) no-repeat;  color: transparent;  box-shadow: none;  border: none;  width: 50px;  height: 50px;  background-position: center;  position: absolute;  cursor: pointer;  }
-.light-mode button{background: url(../img/moon.svg) no-repeat; background-position: center;}
-button:focus {outline:0;} 
 
 /* End Show Image Small Screen
 ============================================================================================ */
