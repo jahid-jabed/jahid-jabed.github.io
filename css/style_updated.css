@@ -2,7 +2,7 @@
 	color:#1d1e21!important;
 	background:#fff!important;
 }
-.nav-item button a{ 
+.nav-item button{ 
 	background: url(../img/sun.svg) no-repeat;  
 	color: transparent;  
 	box-shadow: none;  
@@ -18,10 +18,11 @@
 .nav-item button{
 	background: url(../img/moon.svg) no-repeat;
 	background-position: center;
+	cursor: pointer;
 	outline: 0;
 	border: 0;
 }
-.nav-item button:focus a:focus a:hover{
+.nav-item button:focus{
 	outline:0;
 	border: 0;
 }
