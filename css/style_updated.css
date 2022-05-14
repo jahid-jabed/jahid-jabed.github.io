@@ -1,5 +1,5 @@
 .light-mode{color:#fff!important;background:#1d1e21!important;}
-button{  background: url(../img/moon.svg) no-repeat;  color: transparent;  box-shadow: none;  border: none;  background-position: center;  position: absolute;  cursor: pointer;  }
+button{  background: url(../img/moon.svg) no-repeat;  color: transparent;  box-shadow: none;  border: none;  background-position: center;  position: right;  cursor: pointer;  }
 
 .light-mode button{background: url(../img/sun.svg) no-repeat; background-position: center;}
 button:focus {outline:0;}
