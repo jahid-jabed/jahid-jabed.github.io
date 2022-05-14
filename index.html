@@ -65,7 +65,6 @@
             <div class="banner_inner">
 			<div class="container">
 				<div class="row home_left_img"></div>
-				<div class="row home_left_img"></div>
 				<div class="row justify-content-center">
 					<div class="col-lg-6">
 						<div class="home_left_img">
@@ -844,8 +843,9 @@
 		  const exp = Math.floor(diff / (1000 * 60 * 60 * 24 * 365)); 
 		  return exp;
 		}
+		calculateExp("Tue Mar 12 2019");
 		let exp_year = calculateExp("Tue Mar 12 2019");
-  		document.getElementById('exp_year').innerHTML = ""+exp_year;
+  		document.getElementById('exp_year').innerHTML = ""+0+exp_year;
 	</script>
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="js/popper.js"></script>
