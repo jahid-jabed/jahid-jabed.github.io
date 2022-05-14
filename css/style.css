@@ -2719,7 +2719,7 @@ h6 {
 .welcome_text {
   margin-top: 45px; }
   .welcome_text h4 {
-    color: #222222;
+/*     color: #222222; */
     font-family: "Heebo", sans-serif;
     font-size: 36px;
     margin-bottom: 18px;
