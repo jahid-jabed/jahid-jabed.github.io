@@ -369,6 +369,9 @@
 	.home_banner_area .banner_inner .banner_content h3 {
 		font-size: 24px;
 	}
+	.home_banner_area .banner_inner .banner_content img{
+		display: block;
+	}
 	/* End Home Banner Area css
 	============================================================================================ */
 	.banner_area .banner_inner .banner_content h2 {
