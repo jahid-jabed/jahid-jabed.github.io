@@ -220,7 +220,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/banner_updated.png) no-repeat scroll center center;
+  background: url(../img/banner/banner_updated.png) repeat scroll center center;
   background-size: cover; }
   .home_banner_area .banner_inner {
     width: 100%; }
