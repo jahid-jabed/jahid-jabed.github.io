@@ -1,28 +1,8 @@
-.light-mode{
-	color:#1d1e21!important;
-	background:#fff!important;
-}
-.nav-item button{ 
-	background: url(../img/sun.svg) no-repeat;  
-	color: transparent;  
-	box-shadow: none;
-	background-position: inline;  
-	/*position: absolute;*/
-	cursor: pointer!important;
-	/*outline: 0;*/
-	border: none;
-}
-.nav-item button{
-	background: url(../img/moon.svg) no-repeat;
-	background-position: inline;
-	/*cursor: pointer!important;
-	outline: 0;
-	border: 0;*/
-}
-.nav-item button:focus{
-	outline:0;
-	/*border: 0;*/
-}
+.light-mode{color:#fff!important;background:#1d1e21!important;}
+button{  background: url(../img/moon.svg) no-repeat;  color: transparent;  box-shadow: none;  border: none;  background-position: center;  position: absolute;  cursor: pointer;  }
+
+.light-mode button{background: url(../img/sun.svg) no-repeat; background-position: center;}
+button:focus {outline:0;}
 
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
@@ -46,8 +26,8 @@ body {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #fff!important;
-  background:#1d1e21!important;
+  color: #1d1e21!important;
+  background:#fff!important;
 }
 
 h1, h2, h3, h4, h5, h6 {
