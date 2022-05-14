@@ -3082,9 +3082,9 @@ h6 {
 display: inline-block;}
 }*/
 
-.light-mode{color:#1d1e21 !important; background:#0b0a14 !important;}
-.light-mode body{color:#1d1e21 !important; background:#0b0a14 !important;}
-.light-mode section{color:#1d1e21 !important; background:#0b0a14 !important;}
+.light-mode{color:#1d1e21 !important; background:#fff !important;}
+.light-mode body{color:#1d1e21 !important; background:#fff !important;}
+.light-mode section{color:#1d1e21 !important; background:#fff !important;}
 button{  background: url(../img/sun.svg) no-repeat;  color: transparent;  box-shadow: none;  border: none;  width: 50px;  height: 50px;  background-position: center;  position: absolute;  cursor: pointer;  }
 .light-mode button{background: url(../img/moon.svg) no-repeat; background-position: center;}
 button:focus {outline:0;} 
