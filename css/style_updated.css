@@ -114,8 +114,7 @@ button:focus {
     border-radius: 100%;
     background: radial-gradient(circle at center, #000410 30% transparent 80%);
     overflow: hidden;
-    background-color: #000410!important;
-    opacity:.6;
+    background-color: rgb(0,4,16,0.4)!important;
 
 }
 	
