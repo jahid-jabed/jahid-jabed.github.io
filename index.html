@@ -844,6 +844,12 @@
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script>
+		$(document).ready(function(){
+		    if(window.innerWidth < 575){
+			$('.slides_theme').removeClass('row');
+		    }
+		});
+			
 		function calculateExp(date) 
 		{
 		  const now = new Date();
