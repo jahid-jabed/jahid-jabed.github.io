@@ -251,6 +251,12 @@
 	}
 }
 @media (max-width:600px){
+	
+	.slider_theme .row {
+	    flex-wrap: nowrap !important;
+	    overflow: auto !important;
+	  }
+	
 /* 	.img-fluid{
 		position: center;
 		width: 50%;
@@ -259,10 +265,7 @@
 }
 @media (max-width:575px){
 	
-	  .slider_theme .row {
-	    flex-wrap: nowrap !important;
-	    overflow: auto !important;
-	  }
+
 	
 /* 	/*Sliders========================================================================================================================*/
 	
