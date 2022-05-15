@@ -32,9 +32,6 @@ body {
   
 }
 
-.filter .active a{
-	color: #8490ff!important; 
-}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Heebo", sans-serif;
@@ -557,7 +554,7 @@ h6 {
     .projects_fillter .filter li:last-child {
       margin-right: 0px; }
     .projects_fillter .filter li.active a {
-      color: #8490ff; }
+      color: #8490ff!important; }
 
 .projects_inner {
   margin-bottom: -30px; }
