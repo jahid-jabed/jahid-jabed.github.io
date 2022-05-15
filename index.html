@@ -849,6 +849,13 @@
 			$('.slides_theme').removeClass('row');
 		    }
 		});
+		$(window).resize(function(){
+		    if(window.innerWidth < 576){
+			$('.slides_theme').removeClass('row');
+		    }else{
+			$('.slides_theme').addClass('row');
+		    }
+		});
 			
 		function calculateExp(date) 
 		{
