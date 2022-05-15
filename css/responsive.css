@@ -290,7 +290,7 @@
 	.slides_theme::-webkit-scrollbar-track {
 	  background: transparent;
 	}
-	.slides_theme > div {
+	.slides_theme .slides_content > div {
 	  scroll-snap-align: start;
 	  flex-shrink: 0;
 	  margin-right: 50px;
@@ -302,7 +302,7 @@
 
 	  display: flex;
 	}
-	.slides_theme > div:target {
+	.slides_theme .slide_content> div:target {
 	/*   transform: scale(0.8); */
 	}
 
