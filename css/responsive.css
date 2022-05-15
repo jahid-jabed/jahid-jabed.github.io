@@ -260,12 +260,12 @@
 @media (max-width:575px){
 	/*Sliders========================================================================================================================*/
 	
-	* {
+/* 	* {
 	  box-sizing: border-box;
-	}
+	} */
 
 	.slider_theme {
-	  width: 100%;
+	  width: 300px;
 	  text-align: center;
 /* 	  overflow: hidden; */
 	}
