@@ -262,7 +262,7 @@
 .slider_theme {
   width: 300px;
   text-align: center;
-  overflow: hidden;
+/*   overflow: hidden; */
 }
 
 .slides_theme {
