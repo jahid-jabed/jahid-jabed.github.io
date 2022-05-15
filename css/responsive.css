@@ -251,17 +251,17 @@
 	}
 }
 @media (max-width:600px){
-	.img-fluid{
+/* 	.img-fluid{
 		position: center;
 		width: 50%;
-	}
+	} */
 	
 }
 @media (max-width:575px){
-	.img-fluid{
+/* 	.img-fluid{
 		position: center;
 		width: 50%;
-	}
+	} */
 	.top_menu {
 		display: none;
 	}
@@ -360,10 +360,10 @@
 }
 
 @media (max-width:480px){
-	.img-fluid{
+/* 	.img-fluid{
 		position: center;
 		width: 50%;
-	}
+	} */
 	/* Main Menu Area css
 	============================================================================================ */
 	.header_area .navbar-collapse{
