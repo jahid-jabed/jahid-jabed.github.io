@@ -1,5 +1,5 @@
 .light-mode{color:#777777!important;background:#1d1e21!important;}
-.dark_btn{  background: url(../img/moon.svg) no-repeat;  color: #fff;  box-shadow: none;  border: none;  background-position: center;  position: left;  cursor: pointer;  }
+.dark_btn{  background: url(../img/moon.svg) no-repeat;  fill: #fff; color: transparent;  box-shadow: none;  border: none;  background-position: center;  position: left;  cursor: pointer;  }
 
 .light-mode .dark_btn{background: url(../img/sun.svg) no-repeat; background-position: center;}
 .dark_btn button:focus {outline:0;}
