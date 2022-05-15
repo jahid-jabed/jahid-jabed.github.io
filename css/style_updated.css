@@ -108,6 +108,11 @@ button:focus {
 	border-style: ridge!important;
 	opacity: .8!important;
 }
+
+.home_left_img img{
+    border-style:ridge!important;
+    border-radius: 100px;
+}
 	
 /*----------------------------------------------------*/
 .header_area {
