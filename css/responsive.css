@@ -2,7 +2,16 @@
 	.row.slider_theme {
 	    flex-wrap: nowrap !important;
 	    overflow: auto !important;
+	    
 	  }
+	.row.slider_theme::-webkit-scrollbar {
+	  width: 10px;
+	  height: 10px;
+	}
+	.row.slider_theme::-webkit-scrollbar-thumb {
+	  background: #8490ff;
+	  border-radius: 10px;
+	}
 	/* Main Menu Area css
 	============================================================================================ */
    .header_area .navbar .search {
