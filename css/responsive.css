@@ -261,13 +261,13 @@
 	/*Sliders========================================================================================================================*/
 	
 	* {
-	  box-sizing: border-box;
+/* 	  box-sizing: border-box; */
 	}
 
 	.slider_theme {
 /* 	  width: 300px; */
 /* 	  text-align: center; */
-	  overflow: hidden;
+/* 	  overflow: hidden; */
 	}
 
 	.slides_theme {
