@@ -267,7 +267,7 @@
 	.slider_theme {
 	  width: 300px;
 	  text-align: center;
-	  overflow: hidden;
+/* 	  overflow: hidden; */
 	}
 
 	.slides_theme {
@@ -305,7 +305,7 @@
 	  transform-origin: center center;
 	  transform: scale(1);
 	  transition: transform 0.5s;
-	  position: absolute;
+/* 	  position: absolute; */
 
 	  display: flex;
 	  justify-content: center;
