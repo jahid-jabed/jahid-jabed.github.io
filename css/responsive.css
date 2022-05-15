@@ -269,6 +269,15 @@
 	  text-align: center;
 /* 	  overflow: hidden; */
 	}
+	
+	.slides_theme .row {
+	    display: none;
+	    display: none;
+	    -ms-flex-wrap: none;
+	    flex-wrap: none;
+	    margin-right: 0px;
+	    margin-left: 0px
+	}
 
 	.slides_theme {
 	  display: flex;
