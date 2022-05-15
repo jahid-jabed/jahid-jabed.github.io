@@ -112,9 +112,10 @@ button:focus {
 .home_left_img img{
     border-style:ridge!important;
     border-radius: 50%;
-    background: radial-gradient(circle at center, #000410 70% transparent 60%);
+    background: radial-gradient(circle at center, #000410 70% transparent 80%);
     overflow: hidden;
     background-color: #000410!important;
+    opacity:. 6;
 
 }
 	
