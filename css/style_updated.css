@@ -109,7 +109,7 @@ button:focus {
   transition: background 0.4s, all 0.3s linear; }
   .header_area .navbar {
     background: #000410!important;
-    color: #777777!important;
+    color: #fff!important;
     opacity: 0.9;
     padding: 0px;
     border: 0px;
@@ -133,7 +133,7 @@ button:focus {
           box-shadow: none;
           margin: 0px;
           background: #000410!important;
-	    color: #777777!important;
+	    color: #fff!important;
 	    opacity: 0.9; }
           @media (min-width: 992px) {
             .header_area .navbar .nav .nav-item.submenu ul {
