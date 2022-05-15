@@ -98,6 +98,10 @@ button:focus {
   .main_title.white p {
     color: #fff;
     opacity: .6; }
+
+.img-fluid{
+	opacity: .8!important;
+}
 	
 /*----------------------------------------------------*/
 .header_area {
