@@ -271,7 +271,7 @@
 	}
 	
 	.slides_theme .row {
-	    flex-wrap: nowrap !important;
+	    flex-wrap: wrap !important;
 	    overflow: auto !important;
 	  }
 
