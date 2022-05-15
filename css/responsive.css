@@ -1,5 +1,5 @@
 @media (max-width:1619px){
-	.slider_theme .row {
+	.row.slider_theme {
 	    flex-wrap: nowrap !important;
 	    overflow: auto !important;
 	  }
@@ -39,10 +39,7 @@
 
 @media (max-width:991px){
 	
-	.slider_theme .row {
-	    flex-wrap: nowrap !important;
-	    overflow: auto !important;
-	  }
+
 	/* Main Menu Area css
 	============================================================================================ */
     .navbar-toggler {
