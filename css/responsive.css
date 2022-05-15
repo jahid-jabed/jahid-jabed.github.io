@@ -305,7 +305,7 @@
 	  transform-origin: center center;
 	  transform: scale(1);
 	  transition: transform 0.5s;
-/* 	  position: absolute; */
+	  position: relative;
 
 	  display: flex;
 	  justify-content: center;
