@@ -260,9 +260,9 @@
 }
 
 .slider_theme {
-  width: 300px;
+  width: 200px;
   text-align: center;
-/*   overflow: hidden; */
+  overflow: hidden;
 }
 
 .slides_theme {
@@ -295,7 +295,7 @@
 .slides_theme > div {
   scroll-snap-align: start;
   flex-shrink: 0;
-  width: 300px;
+  width: 200px;
   height: 300px;
   margin-right: 50px;
   border-radius: 10px;
