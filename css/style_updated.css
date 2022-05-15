@@ -34,7 +34,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Heebo", sans-serif;
-  font-weight: bold; }
+  font-weight: bold; 
+  color: inherit!important;
+}
 
 button:focus {
   outline: none;
@@ -79,7 +81,7 @@ button:focus {
   .main_title h2 {
     font-family: "Heebo", sans-serif;
     font-size: 36px;
-    color: #222222;
+    /*color: #222222;*/
     font-weight: bold;
     margin-bottom: 15px;
     text-transform: uppercase; }
@@ -87,7 +89,7 @@ button:focus {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     line-height: 26px;
-    color: #777777;
+    /*color: #777777;*/
     margin-bottom: 0px;
     max-width: 570px;
     margin: auto; }
@@ -115,7 +117,7 @@ button:focus {
       .header_area .navbar .nav .nav-item .nav-link {
         font: 500 12px/100px "Roboto", sans-serif;
         text-transform: uppercase;
-        color: #222222;
+        /*color: #222222;*/
         padding: 0px;
         display: inline-block; }
         .header_area .navbar .nav .nav-item .nav-link:after {
@@ -128,7 +130,7 @@ button:focus {
           border-radius: 0px;
           box-shadow: none;
           margin: 0px;
-          background: #fff; }
+          /*background: #fff;*/ }
           @media (min-width: 992px) {
             .header_area .navbar .nav .nav-item.submenu ul {
               position: absolute;
@@ -166,7 +168,7 @@ button:focus {
             transition: all 0.4s linear; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
               line-height: 45px;
-              color: #222222;
+             /* color: #222222;*/
               padding: 0px 30px;
               transition: all 150ms linear;
               display: block;
@@ -174,8 +176,8 @@ button:focus {
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-              background: #8490ff;
-              color: #fff; }
+             /* background: #8490ff;
+              color: #fff; */}
         @media (min-width: 992px) {
           .header_area .navbar .nav .nav-item.submenu:hover ul {
             visibility: visible;
@@ -189,7 +191,7 @@ button:focus {
       font-size: 12px;
       line-height: 60px;
       display: inline-block;
-      color: #222222;
+      /*color: #222222;*/
       margin-left: 80px; }
       .header_area .navbar .search i {
         font-weight: 600; }
@@ -199,7 +201,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #fff;
+    /*background: #fff;*/
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -244,7 +246,7 @@ button:focus {
       align-self: center; }
     .home_banner_area .banner_inner .banner_content {
       text-align: left;
-      color: #222222; }
+      /*color: #222222; */}
       .home_banner_area .banner_inner .banner_content h5 {
         font-size: 14px;
         font-family: "Roboto", sans-serif;
@@ -260,7 +262,7 @@ button:focus {
         text-transform: uppercase;
         margin-bottom: 20px; }
       .home_banner_area .banner_inner .banner_content p {
-        color: #777777;
+        /*color: #777777;*/
         font-family: "Roboto", sans-serif;
         max-width: 680px;
         font-size: 14px;
@@ -278,7 +280,7 @@ button:focus {
   margin-top: 24px;
   margin-bottom: 15px; }
   .l_blog_item .l_blog_text .date a {
-    color: #777777;
+    /*color: #777777;*/
     font-size: 12px;
     font-family: "Roboto", sans-serif; }
 .l_blog_item .l_blog_text h4 {
@@ -311,7 +313,7 @@ button:focus {
     top: 0;
     font-size: 20px;
     line-height: 24px;
-    color: #8490ff;
+    /*color: #8490ff;*/
     font-weight: 600; }
   .contact_info .info_item h6 {
     font-size: 16px;
@@ -319,11 +321,11 @@ button:focus {
     color: "Roboto", sans-serif;
     font-weight: bold;
     margin-bottom: 0px;
-    color: #222222; }
+    /*color: #222222; */}
     .contact_info .info_item h6 a {
-      color: #222222; }
+      /*color: #222222;*/ }
   .contact_info .info_item p {b, sup, sub, u, del {
-  color: #f8b600; }
+  /*color: #f8b600;*/ }
 
 h1 {
   font-size: 36px; }
@@ -344,7 +346,7 @@ h6 {
   font-size: 14px; }
 
 .typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
-  color: #777777; }
+  /*color: #777777;*/ }
     font-size: 14px;
     line-height: 24px;
     padding: 2px 0px; }
@@ -386,7 +388,7 @@ h6 {
 /* Welcome Area css
 ============================================================================================ */
 .welcome_inner .welcome_img {
-  background: #eeeeee;
+  /*background: #eeeeee;*/
   margin-left: 40px;
   padding-left: 30px;
   padding-right: 30px;
@@ -428,14 +430,14 @@ h6 {
   .wel_item p {
     font-size: 14px;
     font-family: "Roboto", sans-serif;
-    color: #777777;
+    /*color: #777777;*/
     margin-bottom: 0px; }
 
 .tools_expert {
   /*box-shadow: 0px 8px 30px 0px rgba(153, 153, 153, 0.1);*/
   padding: 50px 35px; }
   .tools_expert h3 {
-    color: #222222;
+    /*color: #222222;*/
     font-size: 21px;
     text-transform: uppercase; }
   .tools_expert .skill_main .skill_item {
@@ -447,7 +449,7 @@ h6 {
       font-size: 14px;
       font-family: "Roboto", sans-serif;
       font-weight: normal;
-      color: #777777;
+      /*color: #777777;*/
       margin-bottom: 15px; }
     .tools_expert .skill_main .skill_item .progress {
       height: 20px;
@@ -475,13 +477,13 @@ h6 {
 /* Feature Area css
 ============================================================================================ */
 .feature_area {
-  background: #f9f9ff; }
+  /*background: #f9f9ff;*/ }
   .feature_area.feature_tow {
-    background: #fff; }
+    /*background: #fff;*/ }
     .feature_area.feature_tow .feature_item {
-      background: #f9f9ff; }
+      /*background: #f9f9ff; */}
       .feature_area.feature_tow .feature_item:hover {
-        background: #fff; }
+        /*background: #fff;*/ }
 
 .feature_inner {
   margin-bottom: -30px; }
@@ -490,7 +492,7 @@ h6 {
   padding: 50px 35px;
   border-radius: 10px;
   transition: all 300ms linear 0s;
-  background: #fff;
+ /* background: #fff;*/
   margin-bottom: 30px; }
   .feature_item i {
     margin-bottom: 35px;
@@ -498,7 +500,7 @@ h6 {
     .feature_item i:before {
       margin-left: 0px;
       font-size: 60px;
-      color: #e1e1e1;
+      /*color: #e1e1e1;*/
       line-height: 60px; }
   .feature_item h4 {
    /* color: #222222;*/
