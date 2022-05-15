@@ -267,16 +267,7 @@
 	.slider_theme {
 	  width: 300px;
 	  text-align: center;
-/* 	  overflow: hidden; */
-	}
-	
-	.slides_theme .row {
-	    display: none;
-	    display: none;
-	    -ms-flex-wrap: none;
-	    flex-wrap: none;
-	    margin-right: 0px;
-	    margin-left: 0px
+	  overflow: hidden;
 	}
 
 	.slides_theme {
