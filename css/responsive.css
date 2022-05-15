@@ -302,11 +302,11 @@
 /* 	  height: 300px; */
 	  margin-right: 50px;
 	  border-radius: 10px;
-	  background: #eee;
-	  transform-origin: center center;
-	  transform: scale(1);
-	  transition: transform 0.5s;
-	  position: relative;
+/* 	  background: #eee; */
+/* 	  transform-origin: center center; */
+/* 	  transform: scale(1); */
+/* 	  transition: transform 0.5s; */
+/* 	  position: relative; */
 
 	  display: flex;
 	  justify-content: center;
