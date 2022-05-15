@@ -269,6 +269,11 @@
 	  text-align: center;
 	  overflow: hidden;
 	}
+	
+	.slides_theme .row {
+	    flex-wrap: nowrap !important;
+	    overflow: auto !important;
+	  }
 
 	.slides_theme {
 	  display: flex;
