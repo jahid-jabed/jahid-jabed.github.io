@@ -259,7 +259,7 @@
 }
 @media (max-width:575px){
 	
-	  .row {
+	  .slider_theme .row {
 	    flex-wrap: nowrap !important;
 	    overflow: auto !important;
 	  }
