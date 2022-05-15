@@ -251,20 +251,16 @@
 	}
 }
 @media (max-width:600px){
-	.projects_item .projects_text{
-		display: inline;
-	}
 	.img-fluid{
-		display: none;
+		position: center;
+		width: 50%;
 	}
 	
 }
 @media (max-width:575px){
-	.projects_item .projects_text{
-		display: inline;
-	}
 	.img-fluid{
-		display: none;
+		position: center;
+		width: 50%;
 	}
 	.top_menu {
 		display: none;
@@ -365,10 +361,8 @@
 
 @media (max-width:480px){
 	.img-fluid{
-		display: none;
-	}
-	.projects_item .projects_text{
-		display: inline;
+		position: center;
+		width: 50%;
 	}
 	/* Main Menu Area css
 	============================================================================================ */
