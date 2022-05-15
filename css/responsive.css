@@ -258,7 +258,7 @@
 	
 }
 @media (max-width:575px){
-	/*Sliders==============*/
+	/*Sliders========================================================================================================================*/
 	
 	* {
 	  box-sizing: border-box;
@@ -297,7 +297,7 @@
 	.slides_theme::-webkit-scrollbar-track {
 	  background: transparent;
 	}
-	.slides_theme > div {
+/* 	.slides_theme > div {
 	  scroll-snap-align: start;
 	  flex-shrink: 0;
 	  width: 300px;
@@ -324,10 +324,10 @@
 	  .slider_theme > a {
 	    display: none;
 	  }
-	}
+	} */
 
 	
-	/*Sliders=============*/
+	/*Sliders==================================================================================================================*/
 
 /* 	.img-fluid{
 		position: center;
