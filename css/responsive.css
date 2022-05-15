@@ -251,9 +251,15 @@
 	}
 }
 @media (max-width:600px){
+	.img-fluid{
+		display: none;
+	}
 	
 }
 @media (max-width:575px){
+	.img-fluid{
+		display: none;
+	}
 	.top_menu {
 		display: none;
 	}
@@ -352,6 +358,9 @@
 }
 
 @media (max-width:480px){
+	.img-fluid{
+		display: none;
+	}
 	/* Main Menu Area css
 	============================================================================================ */
 	.header_area .navbar-collapse{
