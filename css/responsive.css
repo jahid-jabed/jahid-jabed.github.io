@@ -1,4 +1,8 @@
 @media (max-width:1619px){
+	.slider_theme .row {
+	    flex-wrap: nowrap !important;
+	    overflow: auto !important;
+	  }
 	/* Main Menu Area css
 	============================================================================================ */
    .header_area .navbar .search {
