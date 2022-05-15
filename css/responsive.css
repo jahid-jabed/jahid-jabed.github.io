@@ -256,13 +256,13 @@
 @media (max-width:600px){
 	
 	* {
-  box-sizing: border-box;
+/*   box-sizing: border-box; */
 }
 
 .slider_theme {
-  width: 200px;
+  width: 300px;
   text-align: center;
-  overflow: hidden;
+/*   overflow: hidden; */
 }
 
 .slides_theme {
@@ -295,7 +295,7 @@
 .slides_theme > div {
   scroll-snap-align: start;
   flex-shrink: 0;
-  width: 200px;
+  width: 300px;
   height: 300px;
   margin-right: 50px;
   border-radius: 10px;
@@ -311,7 +311,7 @@
 /*   font-size: 100px; */
 }
 .slides_theme > div:target {
-/*   transform: scale(0.8); */
+  transform: scale(0.8);
 }
 
 
