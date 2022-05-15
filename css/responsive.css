@@ -297,6 +297,7 @@
  	.slides_theme > div {
 	  scroll-snap-align: start;
 	  flex-shrink: 0;
+	  flex-wrap: wrap;
 	  width: 300px;
 	  height: 450px;
 	  margin-right: 50px;
