@@ -261,7 +261,7 @@
 	/*Sliders========================================================================================================================*/
 	
 	* {
-	  box-sizing: border-box;
+/* 	  box-sizing: border-box; */
 	}
 
 	.slider_theme {
@@ -279,17 +279,17 @@
 	  scroll-behavior: smooth;
 	  -webkit-overflow-scrolling: touch;
 
-	  scroll-snap-points-x: repeat(300px);
-	  scroll-snap-type: mandatory;
+/* 	  scroll-snap-points-x: repeat(300px);
+	  scroll-snap-type: mandatory; */
 	 
 	}
 	.slides_theme::-webkit-scrollbar {
-	  width: 10px;
-	  height: 10px;
+	  width: 5px;
+	  height: 5px;
 	}
 	.slides_theme::-webkit-scrollbar-thumb {
 	  background: #8490ff;
-	  border-radius: 10px;
+	  border-radius: 5px;
 	}
 	.slides_theme::-webkit-scrollbar-track {
 	  background: transparent;
