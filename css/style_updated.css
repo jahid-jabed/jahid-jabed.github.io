@@ -105,6 +105,7 @@ button:focus {
     opacity: .6; }
 
 .img-fluid{
+	border-style: ridge!important;
 	opacity: .8!important;
 }
 	
