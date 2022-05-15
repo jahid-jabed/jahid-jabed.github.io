@@ -180,7 +180,7 @@ button:focus {
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-             background: #8490ff;
+             background: #fff;
               /*color: #fff; */}
         @media (min-width: 992px) {
           .header_area .navbar .nav .nav-item.submenu:hover ul {
