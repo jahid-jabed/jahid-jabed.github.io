@@ -844,21 +844,6 @@
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script>
-		jQuery(document).ready(function($) {
-		  var alterClass = function() {
-		    var ww = document.body.clientWidth;
-		    if (ww < 575) {
-		      $('.slides_theme').removeClass('row');
-		    } else if (ww >= 576) {
-		      $('.slides_theme').addClass('row');
-		    };
-		  };
-		  $(window).resize(function(){
-		    alterClass();
-		  });
-		  //Fire it when the page first loads:
-		  alterClass();
-		});
 			
 		function calculateExp(date) 
 		{
