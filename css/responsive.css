@@ -290,19 +290,19 @@
 	.slides_theme::-webkit-scrollbar-track {
 	  background: transparent;
 	}
-	.slides_theme .slides_content > div {
+	.slides_theme > div {
 	  scroll-snap-align: start;
 	  flex-shrink: 0;
-	  margin-right: 50px;
-	  border-radius: 10px;
-	  transform-origin: center center;
+/* 	  margin-right: 50px; */
+/* 	  border-radius: 10px; */
+/* 	  transform-origin: center center; */
 	  transform: scale(1);
 	  transition: transform 0.5s;
-	  position: relative;
+/* 	  position: relative; */
 
 	  display: flex;
 	}
-	.slides_theme .slide_content> div:target {
+	.slides_theme> div:target {
 	/*   transform: scale(0.8); */
 	}
 
