@@ -251,12 +251,18 @@
 	}
 }
 @media (max-width:600px){
+	.projects_item .projects_text{
+		position: center!important;
+	}
 	.img-fluid{
 		display: none;
 	}
 	
 }
 @media (max-width:575px){
+	.projects_item .projects_text{
+		position: center!important;
+	}
 	.img-fluid{
 		display: none;
 	}
@@ -360,6 +366,9 @@
 @media (max-width:480px){
 	.img-fluid{
 		display: none;
+	}
+	.projects_item .projects_text{
+		position: center!important;
 	}
 	/* Main Menu Area css
 	============================================================================================ */
