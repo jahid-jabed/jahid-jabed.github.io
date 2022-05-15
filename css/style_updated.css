@@ -514,7 +514,7 @@ h6 {
     .feature_item i:before {
       margin-left: 0px;
       font-size: 60px;
-      /*color: #e1e1e1;*/
+      color: #e1e1e1;
       line-height: 60px; }
   .feature_item h4 {
    /* color: #222222;*/
