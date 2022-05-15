@@ -109,6 +109,7 @@ button:focus {
   transition: background 0.4s, all 0.3s linear; }
   .header_area .navbar {
     background: #000410!important;
+    color: #777777!important;
     opacity: 0.9;
     padding: 0px;
     border: 0px;
@@ -131,7 +132,9 @@ button:focus {
           border-radius: 0px;
           box-shadow: none;
           margin: 0px;
-          /*background: #fff;*/ }
+          background: #000410!important;
+	    color: #777777!important;
+	    opacity: 0.9; }
           @media (min-width: 992px) {
             .header_area .navbar .nav .nav-item.submenu ul {
               position: absolute;
@@ -177,8 +180,8 @@ button:focus {
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-             /* background: #8490ff;
-              color: #fff; */}
+             background: #8490ff;
+              /*color: #fff; */}
         @media (min-width: 992px) {
           .header_area .navbar .nav .nav-item.submenu:hover ul {
             visibility: visible;
