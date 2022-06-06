@@ -103,6 +103,14 @@ button:focus {
   .main_title.white p {
     color: #fff;
     opacity: .6; }
+.main_title i {
+    margin-bottom: 35px;
+    display: block; }
+    .main_title i:before {
+      margin-left: 0px;
+      font-size: 60px;
+      color: #e1e1e1;
+      line-height: 60px; }
 
 .img-fluid{
 	border-style: ridge!important;
