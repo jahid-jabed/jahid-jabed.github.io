@@ -47,7 +47,8 @@
 						<li class="nav-item submenu dropdown">
 							<a href="#Works" onclick="location.href='#Works';" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Works</a>
 							<ul class="dropdown-menu filter">
-								<li class="nav-item" data-filter=".graduate_thesis"><a class="nav-link" href="#Works" onclick="location.href='#Works';">Graduate Thesis/Project</a></li>
+								<li class="nav-item" data-filter=".graduate_thesis"><a class="nav-link" href="#Works" onclick="location.href='#Works';">Graduate Thesis</a></li>
+								<li class="nav-item" data-filter=".graduate_project"><a class="nav-link" href="#Works" onclick="location.href='#Works';">Graduate Project</a></li>
 								<li class="nav-item" data-filter=".thesis"><a class="nav-link" href="#Works" onclick="location.href='#Works';">Undergrad Thesis</a></li>
 								<!--li class="nav-item" data-filter=".projects"><a class="nav-link" href="#Works" onclick="location.href='#Works';">Undergrad Projects</a></li-->
 								<li class="nav-item" data-filter=".publications"><a class="nav-link" href="#Works" onclick="location.href='#Works';">Publications</a></li>
@@ -89,11 +90,23 @@
 								<div class="col-lg-3 col-md-3 col-sm-6 col-6" style= "padding: 10px;">
 									<ul class="wel_item filter list">
 										<li><i class="lnr lnr-graduation-hat"></i></li>
-										<li><h4>4</h4></li>
+										<li><h4>1</h4></li>
 										<li></li>
 										<li data-filter=".graduate_thesis">
 											<a class="nav-link" href="#Works" onclick="location.href='#Works';" style="text-decoration: none; padding: 0px;">
-												Graduate</br>Thesis/Project
+												Graduate</br>Thesis
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-6 col-6" style= "padding: 10px;">
+									<ul class="wel_item filter list">
+										<li><i class="lnr lnr-graduation-hat"></i></li>
+										<li><h4>4</h4></li>
+										<li></li>
+										<li data-filter=".graduate_project">
+											<a class="nav-link" href="#Works" onclick="location.href='#Works';" style="text-decoration: none; padding: 0px;">
+												Graduate</br>Project
 											</a>
 										</li>
 									</ul>
@@ -219,6 +232,13 @@
 								(<span class="counter">85</span>%).</h4>
 								<div class="progress">
 									<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="skill_item">
+								<h4 class="text-left"><b>Computer Skills</b> 
+								(<span class="counter">100</span>%).</h4>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 						</div>
@@ -382,7 +402,8 @@
         		<div class="projects_fillter">
 					<ul class="filter list">
 						<li class="active" data-filter="*"><a href="#">All Categories</a></li>
-						<li data-filter=".graduate_thesis"><a href="#">Graduate Thesis/Project</a></li>
+						<li data-filter=".graduate_thesis"><a href="#">Graduate Thesis</a></li>
+						<li data-filter=".graduate_project"><a href="#">Graduate Projects</a></li>
 						<!--li data-filter=".projects"><a href="#">Undergrad Projects</a></li-->
 						<!--li data-filter=".other_projects"><a href="#">Others Projects</a></li-->
 						<li data-filter=".thesis"><a href="#">Undergrad Thesis</a></li>
@@ -392,7 +413,7 @@
 				</div>
 					
 				<div class="projects_inner row">
-					<div class="col-lg-3 col-md-4 col-sm-6 research graduate_thesis">
+					<div class="col-lg-6 col-md-6 research .graduate_project">
 						<div class="projects_item">
 <!-- 							<img class="img-fluid" src="img/projects/projects-7.jpg" alt=""> -->
 							<div class="projects_text">
@@ -401,7 +422,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 research graduate_thesis">
+					<div class="col-lg-6 col-md-6 research .graduate_project">
 						<div class="projects_item">
 <!-- 							<img class="img-fluid" src="img/projects/projects-7.jpg" alt=""> -->
 							<div class="projects_text">
@@ -410,7 +431,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 research graduate_thesis">
+					<div class="col-lg-6 col-md-6 research .graduate_project">
 						<div class="projects_item">
 <!-- 							<img class="img-fluid" src="img/projects/projects-7.jpg" alt=""> -->
 							<div class="projects_text">
@@ -419,7 +440,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 research graduate_thesis">
+					<div class="col-lg-6 col-md-6 research .graduate_projects">
 						<div class="projects_item">
 <!-- 							<img class="img-fluid" src="img/projects/projects-7.jpg" alt=""> -->
 							<div class="projects_text">
@@ -428,12 +449,12 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 research graduate_thesis">
+					<div class="col-lg-6 col-md-6 research graduate_thesis">
 						<div class="projects_item">
 <!-- 							<img class="img-fluid" src="img/projects/projects-7.jpg" alt=""> -->
 							<div class="projects_text">
 								<a href="#" target="_blank"><h4>Study on CNN based Transfer Learning in Image Classification</h4></a>
-								<p>Graduate Thesis/Project</p>
+								<p>Graduate Thesis</p>
 							</div>
 						</div>
 					</div>
@@ -474,7 +495,7 @@
 							</div>
 						</div>
 					</div-->
-					<div class="col-lg-3 col-md-4 col-sm-6 thesis research publications">
+					<div class="col-lg-6 col-md-6 thesis research publications">
 						<div class="projects_item">
 <!-- 							<img class="img-fluid" src="img/projects/projects-5.jpg" alt=""> -->
 							<div class="projects_text">
@@ -483,7 +504,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 publications research">
+					<div class="col-lg-6 col-md-6 publications research">
 						<div class="projects_item">
 <!-- 							<img class="img-fluid" src="img/projects/projects-6.jpg" alt=""> -->
 							<div class="projects_text">
@@ -533,7 +554,7 @@
         			<p>Mr. Islam has more than four years of expertise in teaching the following subject areas in Computer Science and Engineering, and others aligned Engineering -</p>
         		</div>
         		<div class="row latest_blog_inner">
-        			<div class="col-lg-2 col-md-3 col-sm-4  col-6">
+        			<div class="col-lg-4 col-md-4 col-sm-6  col-6">
         				<div class="l_blog_item">
         					<div class="l_blog_img">
 <!--         						<img class="img-fluid" src="img/courses/course-1.jpg" alt=""> -->
@@ -546,7 +567,7 @@
         					</div>
         				</div>
         			</div>
-        			<div class="col-lg-2 col-md-3 col-sm-4  col-6">
+        			<div class="col-lg-4 col-md-4 col-sm-6  col-6">
         				<div class="l_blog_item">
         					<div class="l_blog_img">
 <!--         						<img class="img-fluid" src="img/courses/course-2.jpg" alt=""> -->
@@ -559,7 +580,7 @@
         					</div>
         				</div>
         			</div>
-        			<div class="col-lg-2 col-md-3 col-sm-4  col-6">
+        			<div class="col-lg-4 col-md-4 col-sm-6  col-6">
         				<div class="l_blog_item">
         					<div class="l_blog_img">
 <!--         						<img class="img-fluid" src="img/courses/course-3.jpg" alt=""> -->
@@ -572,7 +593,7 @@
         					</div>
         				</div>
         			</div>
-					<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+					<div class="col-lg-4 col-md-4 col-sm-6  col-6">
         				<div class="l_blog_item">
         					<div class="l_blog_img">
 <!--         						<img class="img-fluid" src="img/courses/course-4.jpg" alt=""> -->
@@ -585,7 +606,7 @@
         					</div>
         				</div>
         			</div>
-					<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+					<div class="col-lg-4 col-md-4 col-sm-6  col-6">
         				<div class="l_blog_item">
         					<div class="l_blog_img">
 <!--         						<img class="img-fluid" src="img/courses/course-5.jpg" alt=""> -->
@@ -598,7 +619,7 @@
         					</div>
         				</div>
         			</div>
-					<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+					<div class="col-lg-4 col-md-4 col-sm-6  col-6">
         				<div class="l_blog_item">
         					<div class="l_blog_img">
 <!--         						<img class="img-fluid" src="img/courses/course-6.jpg" alt=""> -->
@@ -611,7 +632,7 @@
         					</div>
         				</div>
         			</div>
-					<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+					<div class="col-lg-4 col-md-4 col-sm-6  col-6">
         				<div class="l_blog_item">
         					<div class="l_blog_img">
 <!--         						<img class="img-fluid" src="img/courses/course-7.jpg" alt=""> -->
@@ -624,7 +645,7 @@
         					</div>
         				</div>
         			</div>
-					<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+					<div class="col-lg-4 col-md-4 col-sm-6  col-6">
         				<div class="l_blog_item">
         					<div class="l_blog_img">
 <!--         						<img class="img-fluid" src="img/courses/course-8.jpg" alt=""> -->
@@ -637,7 +658,7 @@
         					</div>
         				</div>
         			</div>
-					<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+					<div class="col-lg-4 col-md-4 col-sm-6  col-6">
         				<div class="l_blog_item">
         					<div class="l_blog_img">
 <!--         						<img class="img-fluid" src="img/courses/course_default.svg" alt=""> -->
@@ -650,7 +671,7 @@
         					</div>
         				</div>
         			</div>
-					<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+					<div class="col-lg-4 col-md-4 col-sm-6  col-6">
         				<div class="l_blog_item">
         					<div class="l_blog_img">
 <!--         						<img class="img-fluid" src="img/courses/course_default.svg" alt=""> -->
@@ -663,7 +684,7 @@
         					</div>
         				</div>
         			</div>
-					<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+					<div class="col-lg-4 col-md-4 col-sm-6  col-6">
         				<div class="l_blog_item">
         					<div class="l_blog_img">
 <!--         						<img class="img-fluid" src="img/courses/course_default.svg" alt=""> -->
@@ -676,46 +697,46 @@
         					</div>
         				</div>
         			</div>
-					<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+					<div class="col-lg-4 col-md-4 col-sm-6  col-6">
         				<div class="l_blog_item">
         					<div class="l_blog_img">
 <!--         						<img class="img-fluid" src="img/courses/course_default.svg" alt=""> -->
         					</div>
         					<div class="l_blog_text">
         						<div class="date">
-        							<a href="#" target="_blank">Fall 2019, Spring 2020</a>
+        							<a href="#" target="_blank">Fall 2019 - Current</a>
         						</div>
-        						<a href="#" target="_blank"><h4>Introduction to Programming and Data Structure</h4></a>
+        						<a href="https://sites.google.com/buft.edu.bd/fall-2022/cse1103" target="_blank"><h4>Introduction to Programming and Data Structure</h4></a>
         					</div>
         				</div>
         			</div>
-					<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+					<div class="col-lg-4 col-md-4 col-sm-6  col-6">
         				<div class="l_blog_item">
         					<div class="l_blog_img">
 <!--         						<img class="img-fluid" src="img/courses/course_default.svg" alt=""> -->
         					</div>
         					<div class="l_blog_text">
         						<div class="date">
-        							<a href="#" target="_blank">Spring 2020</a>
+        							<a href="#" target="_blank">Spring 2020 - Current</a>
         						</div>
-        						<a href="#" target="_blank"><h4>Introduction to Programming Techniques</h4></a>
+        						<a href="https://sites.google.com/buft.edu.bd/fall-2022/cse1102_hide" target="_blank"><h4>Introduction to Programming Techniques</h4></a>
         					</div>
         				</div>
         			</div>
-					<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+					<div class="col-lg-4 col-md-4 col-sm-6  col-6">
         				<div class="l_blog_item">
         					<div class="l_blog_img">
 <!--         						<img class="img-fluid" src="img/courses/course_default.svg" alt=""> -->
         					</div>
         					<div class="l_blog_text">
         						<div class="date">
-        							<a href="#" target="_blank">Fall 2019, Spring 2020</a>
+        							<a href="#" target="_blank">Fall 2019 - Current</a>
         						</div>
-        						<a href="#" target="_blank"><h4>Introduction to Electrical Engineering and Electronics</h4></a>
+        						<a href="https://sites.google.com/buft.edu.bd/fall-2022/eee2201" target="_blank"><h4>Introduction to Electrical Engineering and Electronics</h4></a>
         					</div>
         				</div>
         			</div>
-					<div class="col-lg-2 col-md-3 col-sm-4 col-6">
+					<div class="col-lg-4 col-md-4 col-sm-6  col-6">
         				<div class="l_blog_item">
         					<div class="l_blog_img">
 <!--         						<img class="img-fluid" src="img/courses/course_default.svg" alt=""> -->
@@ -725,6 +746,19 @@
         							<a href="#" target="_blank">Spring 2020</a>
         						</div>
         						<a href="#" target="_blank"><h4>Computer Application in Business</h4></a>
+        					</div>
+        				</div>
+        			</div>
+				<div class="col-lg-4 col-md-4 col-sm-6  col-6">
+        				<div class="l_blog_item">
+        					<div class="l_blog_img">
+<!--         						<img class="img-fluid" src="img/courses/course_default.svg" alt=""> -->
+        					</div>
+        					<div class="l_blog_text">
+        						<div class="date">
+        							<a href="#" target="_blank">Spring 2022 - Current</a>
+        						</div>
+        						<a href="https://sites.google.com/buft.edu.bd/fall-2022/eee4100" target="_blank"><h4>Elements of Microprocessor Robotics Control Engineering</h4></a>
         					</div>
         				</div>
         			</div>
